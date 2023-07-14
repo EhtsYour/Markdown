@@ -55,7 +55,7 @@ Then inter and start the new line.
 
 **This is a bold text.**
 
-<!--  __This is a bold text.__  -->
+__This is a bold text.__
 
 <br/>
 
@@ -63,9 +63,9 @@ Then inter and start the new line.
 
 ---
 
-_This is an italic text._
+*This is an italic text.*
 
-<!--  *This is an italic text.*  -->
+_This is an italic text._
 
 <br/>
 
@@ -73,18 +73,11 @@ _This is an italic text._
 
 ---
 
+***This is a bold & italic text.***
+
+___This is a bold & italic text.___
+
 **_This is a bold & italic text._**
-
-<!--  ***This is a bold & italic text.***  -->
-<!--  ___This is a bold & italic text.___  -->
-
-<br/>
-
-### Under Line
-
----
-
-<u> This is an under line text. </u>
 
 <br/>
 
@@ -92,7 +85,7 @@ _This is an italic text._
 
 ---
 
-~~This is a strike through text.~~
+~~This is a strike-through text.~~
 
 <br/>
 
@@ -162,8 +155,8 @@ _This is an italic text._
     -   [x] Item-2.1
     -   [x] Item-2.2
     -   [x] Item-2.3
--   [x] Item-3
-    1. [ ] Item-3.1
+-   [ ] Item-3
+    1. [x] Item-3.1
     2. [ ] Item-3.2
     3. [ ] Item-3.3
 -   [ ] Item-4
@@ -191,7 +184,7 @@ https://moniruzzaman.info
 
 ---
 
-[Link Title](https://moniruzzaman.info)
+[Link Title | Link Name](https://moniruzzaman.info)
 
 <br/>
 
@@ -228,11 +221,11 @@ https://moniruzzaman.info
 
 ---
 
-| Name         |           Email           |       Phone |
-| :----------- | :-----------------------: | ----------: |
-| Moniruzzaman |  info@moniruzzaman.info   | 01767096222 |
-| Moniruzzaman |  monir@moniruzzaman.info  | 01767096222 |
-| Moniruzzaman | contact@moniruzzaman.info | 01767096222 |
+| Name               |           Email           |             Phone |
+| :----------------- | :-----------------------: | ----------------: |
+| Monir              |  info@moniruzzaman.info   |       01767096222 |
+| Moniruzzaman       |  monir@moniruzzaman.info  |    +8801767096222 |
+| Moniruzzaman Monir | contact@moniruzzaman.info | +880 1767 096 222 |
 
 <br/>
 
@@ -253,6 +246,7 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 ---
 
 ```html
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Moniruzzaman</title>
@@ -268,6 +262,7 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode.
 
 ```css
 h1 {
+	color: magenta;
 	background-color: cyan;
 }
 ```
