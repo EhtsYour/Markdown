@@ -89,7 +89,7 @@ ___This is a bold & italic text.___
 
 <br/>
 
-### Quoting Text
+### Quotation
 
 ---
 
